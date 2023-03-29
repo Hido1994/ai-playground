@@ -33,7 +33,7 @@ function check_and_set_args() {
 
 function curl_openai_with_context {
     MESSAGES=$(echo $MESSAGES | jq -r --arg PROMPT "$PROMPT" '. + [{"role": "user", "content": $PROMPT}]')
-    echo $MESSAGES
+    # echo $MESSAGES
     RESPONSE=$(curl -s -X POST -H "Content-Type: application/json" -H "Authorization: Bearer $API_KEY" -d "{ 
     \"model\": \"$MODEL\", 
     \"messages\": $MESSAGES,
