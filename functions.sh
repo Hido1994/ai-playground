@@ -44,6 +44,6 @@ function curl_openai_with_context {
     echo $RESPONSE | jq -r '.choices[0].message.content'
 
     RESULT=$(echo $RESPONSE | jq -r '.choices[0].message.content')
-    NEW_MESSAGE=$(echo $RESPONSE | jq -r '.choices[0].message')
-    MESSAGES=$(echo $MESSAGES | jq -r --arg NEW_MESSAGE "$NEW_MESSAGE" '. + [{"role": "user", "content": $NEW_MESSAGE}]')
+    PROMPT=$(echo $RESPONSE | jq -r '.choices[0].message.content')
+    MESSAGES=$(echo $MESSAGES | jq -r --arg PROMPT "$PROMPT" '. + [{"role": "assistant", "content": $PROMPT}]')
 }
