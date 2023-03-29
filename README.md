@@ -1,5 +1,5 @@
 # AI Playground
-This repository contains scripts and applications an the area of AI.
+This repository contains scripts and applications an the area of AI. :rocket:
 
 ```
 # OpenAI Chat API
@@ -7,5 +7,5 @@ This repository contains scripts and applications an the area of AI.
 ```
 
 # Donate
-If you like my stuff, buy me a coffee :)
+If you like my stuff, buy me a coffee :coffee:
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/dhinterndorfer)
