@@ -1,4 +1,4 @@
-# AI Playground
+# AI Playground :brain:
 This repository contains scripts and applications an the area of AI. :rocket:
 
 ```
@@ -7,5 +7,5 @@ This repository contains scripts and applications an the area of AI. :rocket:
 ```
 
 # Donate
-If you like my stuff, buy me a coffee :coffee:
+If you like my stuff, buy me a coffee :coffee:  
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/dhinterndorfer)
