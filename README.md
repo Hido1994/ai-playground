@@ -1,5 +1,5 @@
 # AI Playground :brain:
-This repository contains scripts and applications an the area of AI. :rocket:
+This repository contains scripts and applications in the area of AI. :rocket:
 
 ```
 # OpenAI Chat API
